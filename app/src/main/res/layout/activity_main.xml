@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01579B"
+    tools:context="com.julie.businesscardapplication.MainActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shake"
+            android:scaleType="center">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:context=".MainActivity">
+
+
+
+
+                <TextView
+                    android:id="@+id/group_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:text="K-Benk Group of companies "
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+
+
+
+                <TextView
+                    android:id="@+id/people_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="bold|italic"
+
+                    android:text="People make companies great through connecting"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/peop_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="70dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_alignParentBottom="true"
+            android:text="K-Benk group of companies provides investors for startups and small businesses .
+"
+            />
+
+        <TextView
+            android:id="@+id/peo_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:layout_alignParentBottom="true"
+            android:text="'WE EMPOWER AND SUPPORT'"
+            />
+
+        <ImageView
+            android:id="@+id/placeholder_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/plaza_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="30100 Oloo Plaza; Oloo-Street"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:id="@+id/phone_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="28dp"
+            android:scaleType="center"
+            android:src="@drawable/phone" />
+
+        <TextView
+            android:id="@+id/contact_text_view"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+
+            android:layout_height="wrap_content"
+            android:text="Contact on :070797552"
+            android:textSize="20sp" />
+
+</RelativeLayout>
+
+
